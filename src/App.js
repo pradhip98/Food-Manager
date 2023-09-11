@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route path='/Food-Manager' element={<Layout />}>
           <Route path='' element={<Home />}></Route>
         </Route>
       </Routes>
